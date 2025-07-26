@@ -31,8 +31,8 @@ export default function Register() {
     }
 
     return (
-        <div id='register-page-container' className='flex flex-col items-center justify-center min-h-screen bg-blue-600'>
-            <div id='register-box' className='flex flex-col justify-around bg-white px-8 py-14 rounded-2xl shadow-lg h-160 w-90'>
+        <div id='register-page-container' className='flex flex-col items-center justify-center min-h-screen bg-gray-100'>
+            <div id='register-box' className='flex flex-col justify-around bg-white px-8 py-14 rounded-2xl shadow-md h-160 w-90'>
                 
                 <h1 className='text-4xl text-center font-bold font-stretch-75% text-gray-600'>Register</h1>
                 <form className='flex flex-col w-full' onSubmit={handleRegister}>
@@ -41,7 +41,7 @@ export default function Register() {
                     <input type='email' placeholder='Email' id='email' className='py-3 px-4 mb-6 border-white bg-gray-100 rounded-3xl' required />
                     <input type='password' placeholder='Password' id='password' className='py-3 px-4 mb-12 border-white bg-gray-100 rounded-3xl' required />
 
-                    <button type='submit'  className='bg-orange-300 text-2xl mt-6 text-white p-2 rounded-3xl hover:bg-blue-700 transition duration-200'>REGISTER</button>
+                    <button type='submit'  className='mt-6 p-2 cursor-pointer bg-black text-white font-extrabold text-lg rounded-xl px-8 py-4 shadow-md hover:bg-gray-900 focus:bg-gray-900 focus:outline-none transition-transform duration-200 disabled:bg-gray-300 disabled:cursor-not-allowed'>REGISTER</button>
                 </form>
             </div>
         </div>

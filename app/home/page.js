@@ -143,7 +143,7 @@ export default function HomePage() {
             </main>
 
             <footer role="contentinfo" className="bg-gray-50 text-gray-400 text-center text-sm py-12 select-none">
-                &copy; 2024 Time Capsule App. All rights reserved.
+                &copy; 2025 Time Capsule App. All rights reserved.
             </footer>
         </>
     );

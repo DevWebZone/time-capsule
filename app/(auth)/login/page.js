@@ -48,15 +48,15 @@ export default function LoginPage() {
     }
     return (
         <>
-        <div id='login-page-container' className='flex flex-col items-center justify-center min-h-screen bg-blue-600'>
-            <div id='login-box' className='flex flex-col justify-around bg-white px-8 py-8 rounded-2xl shadow-lg h-160 w-90'>
+        <div id='login-page-container' className='flex flex-col items-center justify-center min-h-screen bg-gray-100'>
+            <div id='login-box' className='flex flex-col justify-around bg-white px-8 py-8 rounded-2xl shadow-md h-160 w-90'>
                 
                 <h1 className='text-4xl text-center font-bold font-stretch-75% text-gray-600'>Login</h1>
                 <form className='flex flex-col w-full' onSubmit={handleLogin}>
                     <input type='username' placeholder='Username' id='username' className='py-3 px-4 mb-6 border-white bg-gray-100 rounded-3xl' required />
                     <input type='password' placeholder='Password' id='password' className='py-3 px-4 mb-12 border-white bg-gray-100 rounded-3xl' required />
 
-                    <button type='submit' className='bg-orange-300 text-2xl mt-6 text-white p-2 rounded-3xl hover:bg-blue-500 cursor-pointer transition duration-200'>LOG IN</button>
+                    <button type='submit' className='mt-6 p-2 cursor-pointer bg-black text-white font-extrabold text-lg rounded-xl px-8 py-4 shadow-md hover:bg-gray-900 focus:bg-gray-900 focus:outline-none transition-transform duration-200 disabled:bg-gray-300 disabled:cursor-not-allowed'>LOG IN</button>
                 </form>
                 <div className='flex flex-col items-center mt-6'>
                     <p className='text-gray-600'>Dont have an account</p>
