@@ -1,6 +1,6 @@
 
 import { ethers } from "ethers";
-const _contractAddress = '0xe7f1725E7734CE288F8367e1Bb143E90bb3F0512'; // Replace with your contract address   
+const _contractAddress = '0xB95cF47AfEa666DD6E7967927A338954FbB16FD7'; // Replace with your contract address   
 const _contractABI = require('../app/assets/contract-abi.json'); // Import your contract ABI from a JSON file
 export async function Connect() {
     if (typeof window.ethereum !== 'undefined') {

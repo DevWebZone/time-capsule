@@ -97,7 +97,7 @@ export default function CapsulesPage() {
                                     <td className="py-2 relative">
                                         {isUnlockable && (
                                             <button
-                                                className="bg-black top-2 absolute left-10 text-white px-4 py-1 rounded hover:bg-blue-700 transition"
+                                                className="bg-black top-2 absolute left-10 cursor-pointer text-white px-4 py-1 rounded hover:bg-gray-700 transition"
                                                 onClick={ async () => {
                                                     const message = await GetMessage( capsule.messageId, signer);
                                                     setModalOpen(true);

@@ -105,7 +105,7 @@ export default function HomePage() {
                             <button
                                 type="submit"
                                 id="submitBtn"
-                                className="inline-flex items-center justify-center bg-black text-white font-extrabold text-lg rounded-xl px-8 py-4 shadow-md hover:bg-gray-900 focus:bg-gray-900 focus:outline-none transition-transform duration-200 disabled:bg-gray-300 disabled:cursor-not-allowed"
+                                className="inline-flex items-center justify-center cursor-pointer bg-black text-white font-extrabold text-lg rounded-xl px-8 py-4 shadow-md hover:bg-gray-900 focus:bg-gray-900 focus:outline-none transition-transform duration-200 disabled:bg-gray-300 disabled:cursor-not-allowed"
                             >
                                 Save Message
                             </button>
