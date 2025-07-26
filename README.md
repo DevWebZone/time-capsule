@@ -1,36 +1,38 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a Nextjs Application to store your messages in blockchain as a time capsule which will unlocked after the defined time is passed.
 
-## Getting Started
+Prerequisties:
+- Metamask extension
+- Sepolia Ethereum TestNet Account
 
-First, run the development server:
+Smart Contract repo: 
+https://github.com/DevWebZone/time-capsule-smart-contract
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Working:
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Login/Register your account
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/64009dfb-9641-4fc7-8d5e-27281567169d" />
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- Once Logged In, Youll be Prompted to connect with your Metamask Account
 
-## Learn More
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/baf1e5d3-4d24-4852-b2a3-c52c95852a1b" />
 
-To learn more about Next.js, take a look at the following resources:
+- After Connecting, fill in the Message Details and click on save message
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/02c2e07c-1ae7-4f92-b3d2-c46a7a1ca466" />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- It will initiate a transaction with your Metamask account, Please make sure to keep some gas fees in your account to proceed
 
-## Deploy on Vercel
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/e5d4d588-f383-44f3-b383-31b8092ff502" />
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- Once Transaction is complete, your message will be stored in the sepolia blockchain and to view the message, click on capsules
+  
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/48635c00-1691-4eb0-9923-617bb0a4abcb" />
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Once Unlock Time passes for a message, you will see the Unlock button and click on it to view your saved message
+  
+<img width="400" height="500" alt="image" src="https://github.com/user-attachments/assets/7e966882-ca91-4b37-8cb9-6ac67d2caea5" />
+
+
+
+
